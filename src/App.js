@@ -6,6 +6,7 @@ import { SearchBox } from "./components/search-box/search-box.component";
 class App extends React.Component {
   constructor() {
     super();
+    
     this.state = {
       monsters: [],
       searchField: "",
